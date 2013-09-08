@@ -2,14 +2,19 @@ package com.mcprohosting.games.jamrpg.platform.data;
 
 import com.mcprohosting.games.jamrpg.platform.SoundManager;
 
+import java.io.File;
+
 public class Sounds {
-	public static int MUSIC_INTRO;
+	public static String MUSIC_INTRO;
 
 	public static void init() {
-		SoundManager soundManager = new SoundManager();
-		soundManager.initalize(8);
+		File file = new File("src/res/sounds/MUSIC_MENU.mp3");
+		try{
+			MUSIC_INTRO = file.toURI().toURL().toExternalForm();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
-		MUSIC_INTRO = soundManager.addSound("com/mcprohosting/games/jamrpg/platform/data/MUSIC_MENU.wav");
-		soundManager.playSound(MUSIC_INTRO);
+		SoundManager.playSoundInThread(MUSIC_INTRO);
 	}
 }

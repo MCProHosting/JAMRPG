@@ -5,6 +5,7 @@
       <element id="module-output" name="JAMRPG" />
       <element id="extracted-dir" path="$USER_HOME$/Documents/Dev/lwjgl-2.9.0/jar/lwjgl.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/Documents/Dev/lwjgl-2.9.0/jar/lwjgl_util.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/lib/windows" />
     </root>
   </artifact>
 </component>

@@ -9,6 +9,8 @@ public class JAMRPG {
 	private static String longTitle = "Just Another Multiplayer RPG";
 
 	public static void main(String[] args) {
+		Utilities.hookShutdown();
+		Utilities.initializeJavaFX();
 		Sounds.init();
 		GUIHandler.init();
 
