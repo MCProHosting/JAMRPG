@@ -1,13 +1,15 @@
 package com.mcprohosting.games.jamrpg.gui;
 
 import org.lwjgl.input.Mouse;
-import org.newdawn.slick.*;
-import org.newdawn.slick.font.effects.ColorEffect;
+import org.newdawn.slick.BasicGame;
+import org.newdawn.slick.GameContainer;
+import org.newdawn.slick.Graphics;
+import org.newdawn.slick.SlickException;
 
 public class Game extends BasicGame {
 	int lastMouseX;
 	int lastMouseY;
-    int max;
+    int max = 0;
     boolean increase = true;
 
 	public Game(String title) {
@@ -26,39 +28,23 @@ public class Game extends BasicGame {
 		lastMouseX = Mouse.getX();
 		lastMouseY = Mouse.getY();
 
-        if (max == 500) {
-            increase = false;
-        } else {
-            increase = true;
-        }
+		if (max == 0) {
+			increase = true;
+		} else if (max == 550) {
+			increase = false;
+		}
 
-        if (max == 0) {
-            increase = true;
-        } else {
-            increase = false;
-        }
-
-        if (increase) {
-            max++;
-        } else {
-            max--;
-        }
+		if (increase) {
+			max++;
+		} else {
+			max--;
+		}
     }
 
 	public void render(GameContainer gc, Graphics g) throws SlickException {
-		try {
-			final java.awt.Font javaFont = java.awt.Font.createFont(java.awt.Font.TRUETYPE_FONT, org.newdawn.slick.util.ResourceLoader.getResourceAsStream("/src/res/fonts/Cardinal.ttf"));
-			UnicodeFont uniFont = new UnicodeFont(javaFont);
-			uniFont.addAsciiGlyphs();
-			uniFont.getEffects().add(new ColorEffect());
-		} catch (Exception e) {
-			System.out.println("Error while loading font");
-			e.printStackTrace();
-		}
-
 		//Font font = new Font(uniFont)
-		g.drawString("Love you Matt <3", 50, 50);
-        g.drawRect(788, 0, 10, 15);
+		//g.drawString("Love you Matt <3", 50, 50);
+        //g.drawRect(788, 0, 10, 15);
 
         for (int i = 0; i < max; i++) {
             g.drawOval(i, i, i, i);
