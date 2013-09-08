@@ -1,6 +1,7 @@
 package com.mcprohosting.games.jamrpg;
 
 import com.mcprohosting.games.jamrpg.gui.GUIHandler;
+import com.mcprohosting.games.jamrpg.platform.data.Sounds;
 
 public class JAMRPG {
 	private static double version = 0.3;
@@ -8,8 +9,8 @@ public class JAMRPG {
 	private static String longTitle = "Just Another Multiplayer RPG";
 
 	public static void main(String[] args) {
+		Sounds.init();
 		GUIHandler.init();
-
 
 		/*InputManager.handleWelcome();
 		GameLogic.createPlayer(InputManager.gatherCharInfo());

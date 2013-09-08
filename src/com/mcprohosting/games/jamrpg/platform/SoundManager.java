@@ -64,8 +64,7 @@ public class SoundManager {
 		AL10.alGenBuffers(scratchBuffer);
 		buffers[bufferIndex] = scratchBuffer.get(0);
 
-		WaveData waveFile = WaveData.create("jam/" + path);
-
+		WaveData waveFile = WaveData.create(path);
 		AL10.alBufferData(buffers[bufferIndex], waveFile.format, waveFile.data, waveFile.samplerate);
 
 		waveFile.dispose();
