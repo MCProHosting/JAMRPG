@@ -25,7 +25,7 @@ public class InputManager {
 				
 				return charInfo;
 			} else {
-				System.out.println("You did not enter a vaild class.");
+                System.out.println("You did not enter a vaild class.");
 			}
 		}
 	}
