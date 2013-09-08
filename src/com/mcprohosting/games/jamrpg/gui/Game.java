@@ -35,9 +35,9 @@ public class Game extends BasicGame {
 		}
 
 		if (increase) {
-			max++;
+			max += i/3;
 		} else {
-			max--;
+			max -= i/3;
 		}
     }
 
@@ -47,7 +47,7 @@ public class Game extends BasicGame {
         //g.drawRect(788, 0, 10, 15);
 
         for (int i = 0; i < max; i++) {
-            g.drawOval(i, i, i, i);
+            g.drawArc(i, i, i, i, i % 2 * 500, i % 5 * 250);
         }
 	}
 }
