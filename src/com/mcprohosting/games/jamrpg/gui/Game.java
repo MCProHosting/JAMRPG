@@ -1,5 +1,6 @@
 package com.mcprohosting.games.jamrpg.gui;
 
+import org.lwjgl.input.Mouse;
 import org.newdawn.slick.*;
 import org.newdawn.slick.font.effects.ColorEffect;
 
@@ -13,8 +14,8 @@ public class Game extends BasicGame {
 	}
 
 	public void update(GameContainer gc, int i) throws SlickException {
-
-	}
+        System.out.println("Mouse - x: " + Mouse.getX() + " y: " + Mouse.getY());
+    }
 
 	public void render(GameContainer gc, Graphics g) throws SlickException {
 		try {
