@@ -5,6 +5,9 @@ import org.newdawn.slick.*;
 import org.newdawn.slick.font.effects.ColorEffect;
 
 public class Game extends BasicGame {
+	int lastMouseX;
+	int lastMouseY;
+
 	public Game(String title) {
 		super(title);
 	}
@@ -14,7 +17,12 @@ public class Game extends BasicGame {
 	}
 
 	public void update(GameContainer gc, int i) throws SlickException {
-        System.out.println("Mouse - x: " + Mouse.getX() + " y: " + Mouse.getY());
+		if (lastMouseX != Mouse.getX() || lastMouseY != Mouse.getY()) {
+			System.out.println("Mouse - x: " + Mouse.getX() + " y: " + Mouse.getY());
+		}
+
+		lastMouseX = Mouse.getX();
+		lastMouseY = Mouse.getY();
     }
 
 	public void render(GameContainer gc, Graphics g) throws SlickException {
