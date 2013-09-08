@@ -28,6 +28,6 @@ public class Game extends BasicGame {
 		}
 
 		//Font font = new Font(uniFont)
-		g.drawString("Love you James <3", 50, 50);
+		g.drawString("Love you Matt <3", 50, 50);
 	}
 }
