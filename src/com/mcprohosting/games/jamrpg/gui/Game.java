@@ -7,6 +7,8 @@ import org.newdawn.slick.font.effects.ColorEffect;
 public class Game extends BasicGame {
 	int lastMouseX;
 	int lastMouseY;
+    int max;
+    boolean increase = true;
 
 	public Game(String title) {
 		super(title);
@@ -18,11 +20,29 @@ public class Game extends BasicGame {
 
 	public void update(GameContainer gc, int i) throws SlickException {
 		if (lastMouseX != Mouse.getX() || lastMouseY != Mouse.getY()) {
-			System.out.println("Mouse - x: " + Mouse.getX() + " y: " + Mouse.getY());
+			System.out.println("Mouse - x: " + Mouse.getX() + " y: " + (600-Mouse.getY()));
 		}
 
 		lastMouseX = Mouse.getX();
 		lastMouseY = Mouse.getY();
+
+        if (max == 500) {
+            increase = false;
+        } else {
+            increase = true;
+        }
+
+        if (max == 0) {
+            increase = true;
+        } else {
+            increase = false;
+        }
+
+        if (increase) {
+            max++;
+        } else {
+            max--;
+        }
     }
 
 	public void render(GameContainer gc, Graphics g) throws SlickException {
@@ -38,5 +58,10 @@ public class Game extends BasicGame {
 
 		//Font font = new Font(uniFont)
 		g.drawString("Love you Matt <3", 50, 50);
+        g.drawRect(788, 0, 10, 15);
+
+        for (int i = 0; i < max; i++) {
+            g.drawOval(i, i, i, i);
+        }
 	}
 }
