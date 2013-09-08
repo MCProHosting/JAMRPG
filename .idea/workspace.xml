@@ -24,18 +24,30 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378624071826" ignored="false" />
     <file path="/GUIHandler.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378583222901" ignored="false" />
+<<<<<<< HEAD
     <file path="/JAMRPG.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378666819332" ignored="false" />
     <file path="/MasterDisplay.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378666855986" ignored="false" />
     <file path="/InputManager.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378582955150" ignored="false" />
+=======
+    <file path="/JAMRPG.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378583194567" ignored="false" />
+    <file path="/MasterDisplay.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378584026102" ignored="false" />
+    <file path="/InputManager.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378600438513" ignored="false" />
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
     <file path="/RenderEngine.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378584154488" ignored="false" />
     <file path="/Sprite.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378593148474" ignored="false" />
     <file path="/TextureLoader.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378592681326" ignored="false" />
     <file path="/Texture.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378585463060" ignored="false" />
     <file path="/Entity.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378594226441" ignored="false" />
+<<<<<<< HEAD
     <file path="/SoundManager.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378666722063" ignored="false" />
     <file path="/Sounds.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378666692108" ignored="false" />
     <file path="/Dummy.txt" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378663098645" ignored="false" />
     <file path="/Utilities.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378666802882" ignored="false" />
+=======
+    <file path="/SoundManager.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378595499277" ignored="false" />
+    <file path="/Sounds.java" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378596840550" ignored="false" />
+    <file path="/Dummy.txt" changelist="f307fd27-9d18-4f85-939c-287dab288198" time="1378600544348" ignored="false" />
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +62,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -87,6 +98,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -137,7 +149,11 @@
       <file leaf-file-name="Utilities.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="28" column="27" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
+=======
+            <state line="8" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.23407917">
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#413#538#0" expanded="true" />
@@ -160,6 +176,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="TextureLoader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/gui/datatypes/TextureLoader.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -191,6 +208,12 @@
         <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/platform/logic/WorldHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="35" column="18" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="JAMRPG.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/JAMRPG.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="36" selection-start="149" selection-end="149" vertical-scroll-proportion="-3.16">
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
               <folding />
             </state>
           </provider>
@@ -204,8 +227,12 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+=======
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -217,7 +244,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/platform/datatypes/Entity.java" />
         <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/platform/JAMRPG.java" />
-        <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/platform/InputManager.java" />
         <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/gui/GUIHandler.java" />
         <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/gui/RenderEngine.java" />
         <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/gui/datatypes/Texture.java" />
@@ -227,10 +253,14 @@
         <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/SoundManager.java" />
         <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/gui/IconLoader.java" />
         <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/platform/data/Sounds.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/Utilities.java" />
         <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/JAMRPG.java" />
         <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/gui/MasterDisplay.java" />
         <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/platform/SoundManager.java" />
+=======
+        <option value="$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/platform/InputManager.java" />
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
       </list>
     </option>
   </component>
@@ -238,7 +268,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1004" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -248,6 +278,7 @@
             <id />
           </State>
           <State>
+<<<<<<< HEAD
             <id>Android</id>
           </State>
           <State>
@@ -267,11 +298,21 @@
           </State>
           <State>
             <id>Internationalization issues</id>
+=======
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>IntelliJ IDEA Platform Inspections</id>
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
           </State>
           <State>
             <id>J2ME issues</id>
           </State>
           <State>
+<<<<<<< HEAD
             <id>JUnit issues</id>
           </State>
           <State>
@@ -305,6 +346,14 @@
             <id>Resource management issues</id>
           </State>
           <State>
+=======
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
             <id>Threading issues</id>
           </State>
           <State>
@@ -345,8 +394,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -369,6 +418,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="JAMRPG" />
@@ -619,6 +669,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
         </subPane>
       </pane>
     </panes>
@@ -626,6 +678,7 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
+<<<<<<< HEAD
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="project.propCompiler" />
@@ -633,6 +686,15 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/Dev/Slick2D/lib/slick.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
+=======
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.side.proportion" value="0.0" />
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -667,19 +729,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -705,6 +754,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -797,9 +859,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1004" extended-state="0" />
+    <editor active="false" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6792873" order="3" side_tool="false" content_ui="tabs" />
@@ -821,6 +884,28 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25295508" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17449306" sideWeight="0.7470449" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25258324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -912,9 +997,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/platform/items/Item.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="2" column="13" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+=======
+        <state line="31" column="0" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0" />
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/platform/data/Sounds.java">
@@ -949,29 +1038,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/gui/RenderEngine.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="5" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+=======
+        <state line="143" column="28" selection-start="4299" selection-end="4299" vertical-scroll-proportion="0.0" />
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/gui/GUIHandler.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="4" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+=======
+        <state line="43" column="5" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" />
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/gui/MasterDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="38" column="40" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+=======
+        <state line="37" column="12" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" />
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="28" column="27" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
@@ -986,6 +1088,9 @@
         <state line="21" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+=======
+        <state line="52" column="0" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0" />
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/platform/SoundManager.java">
@@ -1013,6 +1118,25 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/JAMRPG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="36" selection-start="149" selection-end="149" vertical-scroll-proportion="-3.16">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcprohosting/games/jamrpg/platform/InputManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.23407917">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 6669323c8417418f7ab985947c86e7a2fd8a59af
   </component>
   <component name="masterDetails">
     <states>
